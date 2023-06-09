@@ -1,0 +1,29 @@
+.main h1 {
+    font-weight: 900;
+    color: #fff;
+}
+.main p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.main {
+    background-image: url('../../public/herobg.jpg');
+    background-position: 50% 80%;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+.main:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}

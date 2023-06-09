@@ -1,0 +1,77 @@
+.login-box {
+    height: calc(100vh - 59px);
+    display: flex;
+    align-items: center;
+}
+
+.form-bg-img {
+    background-image: linear-gradient(rgb(0 115 143 / 86%),
+            rgb(66 0 92 / 74%)),
+        url("../../../public/formbg.jpg");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4e5164;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.inputfield {
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.formbg {
+    background: var(--theme);
+    padding: 50px;
+}
+
+.h2-title {
+    color:var(--yellow);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.inputfield::placeholder {
+    color: #a7a9b9
+}
+
+.inputfield-svg {
+    color: #a7a9b9
+}
+
+.submit-btn {
+    background: var(--yellow);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--theme);
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+.p-link {
+    color: #797c93;
+    text-align: center;
+}
+
+.p-link a {
+    color:var(--yellow);
+    font-weight: 500;
+}
